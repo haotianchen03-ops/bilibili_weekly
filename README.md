@@ -12,31 +12,31 @@
   Tableau 数据分析文件，用于可视化趋势分析
 
 - `bilibili.json`  
-  抓取后的原始数据示例（JSON格式） :contentReference[oaicite:0]{index=0}  
+  抓取后的原始数据示例（JSON格式）
 
 ---
 
 ### 🕷️ 爬虫核心
 
 - `bili.py`  
-  爬虫主逻辑，负责请求接口并解析每周热门视频数据 :contentReference[oaicite:1]{index=1}  
+  爬虫主逻辑，负责请求接口并解析每周热门视频数据
 
 - `items.py`  
-  定义数据结构（视频期数、标题、作者、播放/点赞等指标） :contentReference[oaicite:2]{index=2}  
+  定义数据结构（视频期数、标题、作者、播放/点赞等指标）
 
 ---
 
 ### 🧱 数据处理
 
 - `pipelines.py`  
-  数据入库逻辑，使用 MongoDB 存储数据（支持去重更新） :contentReference[oaicite:3]{index=3}  
+  数据入库逻辑，使用 MongoDB 存储数据（支持去重更新）
 
 ---
 
 ### ⚙️ 配置文件
 
 - `settings.py`  
-  Scrapy 配置，包括请求频率、并发、MongoDB连接等 :contentReference[oaicite:4]{index=4}  
+  Scrapy 配置，包括请求频率、并发、MongoDB连接等
 
 ---
 
