@@ -3,7 +3,7 @@
 ### 📦 数据与结果
 
 - `bilibili_weekly_top10.html`  
-  每周热门视频 Top10 展示页面（可视化结果）
+  基于pyeacharts实现每周热门视频 Top10 动态展示页面
 
 - `dashboard.png`  
   简单数据看板截图，用于展示分析结果
